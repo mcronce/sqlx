@@ -1,5 +1,6 @@
 #![allow(dead_code)]
 
+use std::convert::TryFrom;
 use std::io;
 use std::ops::{Deref, DerefMut};
 use std::path::PathBuf;

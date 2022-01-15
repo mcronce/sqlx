@@ -1,4 +1,5 @@
 use crate::net::CertificateInput;
+use rustls::internal::msgs::codec::{Codec, Reader};
 use rustls::{
     client::{ServerCertVerified, ServerCertVerifier, WebPkiVerifier},
     ClientConfig, Error as TlsError, OwnedTrustAnchor, RootCertStore, ServerName,
