@@ -29,6 +29,7 @@ pub(crate) mod value;
 #[cfg(feature = "migrate")]
 mod migrate;
 
+pub(crate) use arguments::AnyArgumentBufferKind;
 pub use arguments::{AnyArgumentBuffer, AnyArguments};
 pub use column::{AnyColumn, AnyColumnIndex};
 pub use connection::AnyConnection;
